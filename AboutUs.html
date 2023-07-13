@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Lucky Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+
+        <div class="container">
+        <div class="navbar">
+
+            <div class="sidebar active">
+                <div class="toggle-button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="links">
+                    <a href="">
+                        <i class="fa fa-home"></i>
+                        Home
+                    </a>
+                    <a href="">
+                        <i class="fa fa-tachometer"></i>
+                        Dashboard
+                    </a>
+                    <a href="">
+                        <i class="fa fa-line-chart"></i>
+                        Analytics
+                    </a>
+                    <a href="">
+                        <i class="fa fa-bell"></i>
+                        Notification
+                    </a>
+                    <a href="">
+                        <i class="fa fa-cog"></i>
+                        Settings
+                    </a>
+                </div>
+            </div>
+
+            <div class="logo">
+                <img src="project_pics/luckystore.png" width="180px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/Products.html">Products</a></li>
+                    <li><a href="/AboutUs.html">About</a></li>
+                </ul>
+            </nav>
+            <a href="/cart.html"><img src="/project_pics/cart.png" width="30px" height="30px"></a>
+            <img src="/project_pics/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+   </header>
+
+
+   <section class="about">
+    <div class="main">
+        <img src="/project_pics/AboutUS.jpg" alt="">
+        <div class="about-text">
+            <h1>About Us</h1>
+            <h5>Developer<span> and Designer</span></h5>
+            <p>I am a Front-End Web Developer. I can provide clean code and pixel perfect design. I also make the website more and more interactive with web animations. I can provide clean code and pixel perfect design. I also make the website more and more interactive with web animations. A responsive design makes your website acccessible to all users, regardless of their device.</p>
+            <button type="button">Let's Talk</button>
+        </div>
+    </div>
+
+   </section>
+
+
+
+   <!-- FOOTER -->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="/project_pics/playstore.JPG" alt="">
+                    <img src="/project_pics/appstore.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <img src="/project_pics/luckystore.png" alt="">
+                <p>Our purpose is to sustainable make the pleasure and benefits of Sports Accessible to the Many.</p>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blogs Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+        <p class="copyright">&copy; Copyright 2022 - All rights reserved</p>
+    </div>
+</div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+ 
+ MenuItems.style.maxHeight = "0px";
+ function menutoggle(){
+     if(MenuItems.style.maxHeight == "0px"){
+         MenuItems.style.maxHeight = "200px";
+     }
+     else
+     {
+         MenuItems.style.maxHeight = "0px";
+     }
+ } 
+ 
+ 
+ // Sidebar
+ 
+ document.querySelector(".sidebar .toggle-button").addEventListener("click",function(){
+             document.querySelector(".sidebar").classList.toggle("active");
+         });
+ 
+ 
+ </script>
+    
+</body>
+</html>
