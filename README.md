@@ -43,6 +43,9 @@ For Medium Devices
 
 ![image](https://github.com/haristahir58/LuckyStore-Eccomerce-Website/assets/80643073/2ef600e3-f6d4-475a-ac8c-d0fcdaad6095)
 
+# 4. Cart Page
+
+![image](https://github.com/haristahir58/LuckyStore-Eccomerce-Website/assets/80643073/c89e2b8a-9ccc-48f3-b2f8-36e8ca4ca141)
 
 
 
